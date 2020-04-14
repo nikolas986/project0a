@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>My Web Page!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--kaze  brauzeru da skalira tekst prema sirini ekrana tako da na
+        telefonu tekst ne bude previse sitan -->
+        <style>
+            @media (min-width: 1000px) {
+                h1::before {
+                    content: "Welcome to My destop Web Page!";
+                    /* ovde kontent popunjava ono sto je ostalo prazno */
+                }
+            }
+
+            @media (max-width: 999px) {
+                h1::before {
+                    content: "Welcome on mobile!";
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>  </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat rutrum nisi at pellentesque. Fusce orci magna, pulvinar ut ultricies id, feugiat eu elit. Nam molestie eu lacus eu fermentum. Fusce eleifend tempus sapien eu maximus. Donec lobortis dapibus magna, quis facilisis velit malesuada a. Nunc iaculis augue nulla, sed sodales dui volutpat lacinia.
+        </p>
+    </body>
+</html>
