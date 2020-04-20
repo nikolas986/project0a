@@ -1,0 +1,46 @@
+@media (min-width: 1000px) {
+    h1::before {
+        content: "Welcome to My destop Web Page # ";
+                    /* ovde kontent popunjava ono sto je ostalo prazno */
+                }
+    h2,h1{
+        margin-left: 30px;
+    }
+    p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+            }
+
+@media (max-width: 999px) {
+    h1::before {
+        content: "Welcome on mobile! # ";
+                }
+    p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }            
+            }
+
+.row > div {
+    padding: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    font-size-adjust;
+}
+
+.enhanced {
+        font-weight: bold;
+        color: darkred;
+      }
+      
+#one {
+        font-size: 24px;
+        color: green;
+        font-family: Arial;
+        margin-left: 20px;
+      }
