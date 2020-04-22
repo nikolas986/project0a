@@ -26,6 +26,7 @@
         margin-bottom: 10px;
         margin-right: 10px;
         margin-left: 10px;
+        
     }            
             }
 
@@ -47,7 +48,3 @@
         font-family: Arial;
         margin-left: 20px;
       }
-#textflow {
-    text-size-adjust: auto;
-    color: green;
-}
