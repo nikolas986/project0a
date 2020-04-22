@@ -47,3 +47,6 @@
         font-family: Arial;
         margin-left: 20px;
       }
+#textflow {
+    text-size-adjust: auto;
+}
