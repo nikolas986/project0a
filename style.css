@@ -65,8 +65,8 @@ table {
       posle smo dodali i umetranje praznog prostora oko teksta u celiji
       na kraju smo centrirali tekst u celiji*/
       th {
-        background-color: lightblue;
-        color:darkred;
+        background-color: lightpink;
+        color:darkblue;
         text-align:center;
       }
       /* dodali smo boju u naslovna poljima */
