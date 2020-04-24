@@ -58,6 +58,7 @@ table {
         border :2px dotted blue;
         padding: 5px;
         text-align: center;
+        
       }
       /* ovde smo i naslov i ono sto je u poljima obmotali isto. */
       /* dodali smo granicu-okvir
@@ -65,5 +66,7 @@ table {
       na kraju smo centrirali tekst u celiji*/
       th {
         background-color: lightblue;
+        color:darkred;
+        text-align:center;
       }
       /* dodali smo boju u naslovna poljima */
