@@ -49,21 +49,21 @@
         margin-left: 20px;
       }
       
-table {
-        border: 2px solid black;
-        border-collapse: collapse;  /* ovim smo uklonili prazan prostor izmedju linija */
-        width: 50%;
-      }
-      th,td {
-        border :2px dotted blue;
-        padding: 5px;
-        text-align: center;
-      }
-      /* ovde smo i naslov i ono sto je u poljima obmotali isto. */
-      /* dodali smo granicu-okvir
-      posle smo dodali i umetranje praznog prostora oko teksta u celiji
-      na kraju smo centrirali tekst u celiji*/
-      th {
-        background-color: lightblue;
-      }
+/* table { */
+        /* border: 2px solid black; */
+        /* border-collapse: collapse;  /* ovim smo uklonili prazan prostor izmedju linija */ */
+        /* width: 50%; */
+      /* } */
+      /* th,td { */
+        /* border :2px dotted blue; */
+        /* padding: 5px; */
+        /* text-align: center; */
+      /* } */
+      ovde smo i naslov i ono sto je u poljima obmotali isto.
+      /* /* dodali smo granicu-okvir */
+      /* posle smo dodali i umetranje praznog prostora oko teksta u celiji */
+      /* na kraju smo centrirali tekst u celiji*/ */
+      /* th { */
+        /* background-color: lightblue; */
+      /* } */
       /* dodali smo boju u naslovna poljima */
