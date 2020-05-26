@@ -1,0 +1,24 @@
+table {
+  border: 2px solid red;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 2px dashed pink;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  font-size: 20px;
+}
+
+th {
+  background-color: lightgreen;
+  color: darkgreen;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style2.css.map */

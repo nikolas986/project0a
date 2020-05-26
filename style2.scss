@@ -1,0 +1,25 @@
+$color1: red;
+$color2: pink;
+$color3: lightgreen;
+$size1: 20px;
+$size2: 25px;
+
+table {
+        border: 2px solid $color1;
+        border-collapse: collapse;  
+        width: 50%;
+      }
+      th,td {
+        border :2px dashed $color2;
+        padding: 5px;
+        text-align: center;
+      }
+      td {
+        font-size: $size1;
+      }
+      th {
+        background-color: $color3;
+        color:darkgreen;
+        text-align:center;
+        font-size: $size2;
+      }
